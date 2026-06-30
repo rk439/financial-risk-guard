@@ -1,0 +1,11 @@
+{
+  "customer_name": "Acme Corp",
+  "contract_status": "Pending Renewal",
+  "current_month_metrics": {
+    "base_storage_allocated_gb": 5000,
+    "actual_storage_used_gb": 7200,
+    "search_queries_run": 95000,
+    "unbilled_overage_detected": true,
+    "recent_spike_ratio": 2.5
+  }
+}
