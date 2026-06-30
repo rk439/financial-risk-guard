@@ -1,6 +1,5 @@
 import os
 import json
-from openai import OpenAI
 from utils import read_pricing_policy, get_customer_metrics
 
 # Best Practice: Enforce Loop Limits to Prevent Cost Runaways
@@ -20,7 +19,7 @@ def financial_risk_guard_agent(customer_query):
             print("⚠️ [Guardrail Triggered] Max loops reached! Forcing resolution to prevent budget overrun.")
             return compile_final_response(customer_query, agent_memory, forced=True)
             
-        # Hardcoded structural rules simulating model decision branches
+        # Simulating standard agent decision loops step-by-step
         if "billing_metrics" not in agent_memory:
             print("🧠 AI Thought: I need customer billing metrics to check for cost anomalies. Calling Tool...")
             print("🛠️ Action: Calling MCP Database Tool via utils.get_customer_metrics()...")
