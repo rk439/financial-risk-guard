@@ -9,4 +9,6 @@ jobs:
         with:
           python-version: '3.10'
       - name: Run Script
+        # This tells the cloud server to step inside your exact file subfolder first
+        working-directory: ./financial-risk-guard
         run: python app.py
