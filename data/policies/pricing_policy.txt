@@ -1,0 +1,9 @@
+PRICING AND OVERAGE POLICY DOCUMENT
+Document ID: POL-2026-X8
+
+1. BASE SUBSCRIPTION DEFINITION
+All standard corporate tier accounts include up to 5,000 GB of monthly cloud storage and 100,000 search queries per month.
+
+2. OVERAGE AND ANOMALY CHARGES
+Section 2.1: If a client exceeds the 5,000 GB storage threshold, additional consumption is billed dynamically at a flat rate of $0.10 per GB.
+Section 2.2: Unexpected surges exceeding 200% of the baseline average usage within a 48-hour window are flagged as "Unmanaged Elastic Usage" and must be cleared by finance before contract renewal.
